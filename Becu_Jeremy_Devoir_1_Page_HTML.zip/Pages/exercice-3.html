@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <meta charset="utf-8">
+    <title>Exercice 3</title>
+    <meta name="description" content="Sur cette troisième page, nous retrouverons le formulaire de demande de devis. ">
+    <meta name="nom" content="Jeremy Becu">
+    <meta property="og:url" content="https://api.centre-europeen-formation.fr/document/6666e8b6cd41e1305e4ea182/">
+    <link rel="stylesheet" href="../Assets/CSS/style.css">
+    <link rel="stylesheet" href="../Assets/CSS/Annexe3.css">
+
+</head>
+<body>
+    <main>
+        <h2>Exercice 3 - Formulaire de contact</h2>
+        <form class="content" action="#">
+            <fieldset id="informations">
+                <legend>Informations personnelles</legend>
+                <div>
+                    <label for="mlle">Mlle</label>
+                    <input type="radio" id="mlle" name="choice" value="Mlle" checked>
+                    <label for="mme">Mme</label>
+                    <input type="radio" id="mme" name="choice" value="Mme">
+                    <label for="mr">M.</label>
+                    <input type="radio" id="mr" name="choice" value="M.">
+                </div>
+                <br>
+                <div class="grid2c">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" placeholder="Votre prénom">
+                    <label for="nom">Nom*</label>
+                    <input type="text" id="nom" placeholder="Votre nom" required>
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" placeholder="Votre adresse mail" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Votre message</legend>
+                <div class="grid2c">
+                    <label for="destinataire">Destinataire</label>
+                        <select name="destinataire" id="destinataire">
+                            <option value="general">Général</option>
+                            <option value="comptabilité">Comptabilité</option>
+                            <option value="sav">SAV</option>
+                            <option value="client">Service client</option>
+                        </select>
+                    <label for="sujet">Sujet*</label>
+                    <input type="text" id="sujet" placeholder="L'objet de votre message" required>
+                    <label for="message">Message*</label>
+                    <textarea name="message" id="message" cols="80" rows="10" placeholder="Saisissez votre message ici"></textarea>
+                    <label for="upload">Ajouter une pièce jointe</label>
+                    <input type="file" id="upload">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Options</legend>
+                <div id="recevoir">
+                    <input type="checkbox" name="copie" id="copie">
+                    <label for="copie">Recevoir une copie du message</label>
+                    <br>
+                    <input type="checkbox" name="offres" id="offres">
+                    <label for="offres">Recevoir nos offres</label>
+                </div>
+                <hr><br>
+                <div id="contact">
+                    <label>Etre contacter par un conseiller</label>
+                    <input type="radio" id="non" name="choice" value="non">
+                    <label for="non">Non</label>
+                    <input type="radio" id="telephone" name="choice1" value="téléphone">
+                    <label for="telephone">Par téléphone</label>
+                    <input type="radio" id="mail" name="choice2" value="mail" checked>
+                    <label for="mail">Par Email</label>
+                </div>
+            </fieldset>
+            <small>* : champs obligatoire</small>
+            <br>
+            <div id="buttons">
+                <input class="button" type="submit" value="Valider">
+                <input class="button" type="reset" value="Effacer">
+            </div>
+        </form>
+    </main>
+    <a href="../index.html" target="_self">Retour à l'acceuil</a>
+</body>
+
+</html>

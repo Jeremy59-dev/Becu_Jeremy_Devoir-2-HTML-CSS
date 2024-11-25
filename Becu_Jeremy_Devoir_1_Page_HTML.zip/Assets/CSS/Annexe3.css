@@ -1,0 +1,87 @@
+/* Début du main */
+.content{
+    border: solid;
+    border-color: #8844cc;
+    border-radius: 0.5em;
+    box-shadow: #8844cc 0.2em 0.2em;
+    margin: 2em 10em;
+    padding: 1em;
+    color: #8844cc;
+}
+fieldset{
+    border: solid;
+    border-color: #8844cc;
+    border-radius: 0.5em;
+    background-color: rgba(136, 68, 204, 0.2);
+    margin-bottom: 1em;
+}
+.grid2c{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 1em;
+    align-items: center;
+}
+legend{
+    font-weight: bold;
+    padding: 0 1em;
+}
+input{
+    border: 1px solid #8844cc;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+select{
+    padding: 1em;
+    border-radius: 0.5em;
+}
+textarea{
+    border: 1px solid #8844cc;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+.upload{
+    border: 1px solid #8844cc;
+    border-radius: 0.2em;
+}
+#recevoir-vertical{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#recevoir{
+    margin: 1em;
+}
+hr{
+    width: 75%;
+    border-color: #8844cc;
+}
+#contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+.button{
+    color: #ffffff;
+    background-color: #8844cc;
+    border-radius: 0.5em;
+    padding: 1em 0.5em;
+    width: 10em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+a{
+    color: #ffffff;
+    background-color: #8844cc;
+    border-radius: 0.2em;
+    padding: 0.5em;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    text-decoration: none;
+}
+/* Fin du main */

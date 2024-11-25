@@ -1,0 +1,72 @@
+/* Début du header */
+header{
+    background-color: #8844cc;
+    font-size: large;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    font-weight: bolder;
+}
+.link{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+/* Fin du header */
+
+/* Début du main */
+section{
+    border: solid #8844cc;
+    border-radius: 1em;
+    margin: 2em;
+    padding: 0 0 1em 1em;
+}
+h4{
+    color: #08c3ff;
+    font-weight: bolder;
+}
+.puces{
+    position: relative;
+    padding-left: 25px;
+}
+.puces::before {
+    content: "➤";
+    position: absolute;
+    left: 0;
+    color: #333333;
+}
+.exercice{
+    text-decoration: underline;
+}
+#acceuil{
+    color: #08c3ff;
+    pointer-events: none;
+    background-color: #ffffff;
+}
+mark::before{
+    content: "(";
+}
+mark::after{
+    content: ")";
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #8844cc;
+    border-radius: 0.2em;
+    padding: 0.5em;
+}
+/* Fin du main */
+
+/* Début du footer */
+footer{
+    background-color: #8844cc;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+/* Fin du footer */
